@@ -67,7 +67,7 @@ img.avatar {
 }
 
 img.university {
-  width: 130px;
+  width: 110px;
 }
 
 .my-name {
@@ -119,6 +119,23 @@ img.university {
 
 .job-company {
   font-weight: bold;
+  line-height: 1.2;
+}
+
+.paper-title {
+  font-style: ;
+  line-height: 1.2;
+  color: #236FB2;
+}
+
+.paper-title a {
+  font-style: ;
+  line-height: 1.2;
+  color: #236FB2;
+}
+
+.event {
+  font-style: italic;
   line-height: 1.2;
 }
 
