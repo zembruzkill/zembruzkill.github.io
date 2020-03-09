@@ -64,6 +64,7 @@ section:last-child {
 
 img.avatar {
   width: 130px;
+  border-radius: 50%;
 }
 
 img.university {
