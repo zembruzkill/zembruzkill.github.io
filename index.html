@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Personal academic website of Luciano Zembruzki, Ph.D. in Computer Science from UFRGS. Researcher in Internet Measurements, NFV, SDN, and Distributed Systems.">
+  <meta name="description" content="Personal website of Luciano Zembruzki, Ph.D. — Data Platform Engineer. Expert in data pipelines, distributed systems, and internet measurements.">
   <title>Luciano Zembruzki</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,6 +26,7 @@
         <img src="img/luc.jpeg" alt="Luciano Zembruzki" class="avatar">
         <div class="sidebar-name">Luciano Zembruzki</div>
         <div class="sidebar-degree">Ph.D. in Computer Science</div>
+        <div class="sidebar-title">Data Platform Engineer | Data Engineer</div>
         <div class="sidebar-location">
           <svg class="icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1152 640q0-106-75-181t-181-75-181 75-75 181 75 181 181 75 181-75 75-181zm256 0q0 109-33 179l-364 773q-16 33-47.5 52t-67.5 19-67.5-19-46.5-52l-365-773q-33-70-33-179 0-212 150-362t362-150 362 150 150 362z"/>
@@ -41,7 +42,7 @@
           </svg>
           Lattes
         </a>
-        <a href="mailto:lzembruzki@inf.ufrgs.br" class="sidebar-link">
+        <a href="mailto:luciano.zembruzki@gmail.com" class="sidebar-link">
           <svg class="icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
             <path d="M1664 1504v-768q-32 36-69 66-268 206-426 338-51 43-83 67t-86.5 48.5-102.5 24.5h-2q-48 0-102.5-24.5t-86.5-48.5-83-67q-158-132-426-338-37-30-69-66v768q0 13 9.5 22.5t22.5 9.5h1472q13 0 22.5-9.5t9.5-22.5zm0-1051v-24.5l-.5-13-3-12.5-5.5-9-9-7.5-14-2.5h-1472q-13 0-22.5 9.5t-9.5 22.5q0 168 147 284 193 152 401 317 6 5 35 29.5t46 37.5 44.5 31.5 50.5 27.5 43 9h2q20 0 43-9t50.5-27.5 44.5-31.5 46-37.5 35-29.5q208-165 401-317 54-43 100.5-115.5t46.5-131.5zm128-37v1088q0 66-47 113t-113 47h-1472q-66 0-113-47t-47-113v-1088q0-66 47-113t113-47h1472q66 0 113 47t47 113z"/>
           </svg>
@@ -77,33 +78,59 @@
         <div class="sidebar-section-label">Skills</div>
 
         <div class="skills-group">
-          <div class="skills-group-label">Languages</div>
+          <div class="skills-group-label">Data Engineering</div>
           <div class="skills-tags">
             <span class="skill-badge">Python</span>
-            <span class="skill-badge">JavaScript</span>
-            <span class="skill-badge">TypeScript</span>
+            <span class="skill-badge">PySpark</span>
+            <span class="skill-badge">Airflow</span>
+            <span class="skill-badge">Delta Lake</span>
+            <span class="skill-badge">ETL/ELT</span>
+            <span class="skill-badge">Data Modeling</span>
           </div>
         </div>
 
         <div class="skills-group">
-          <div class="skills-group-label">Frameworks</div>
+          <div class="skills-group-label">Cloud &amp; Storage</div>
+          <div class="skills-tags">
+            <span class="skill-badge">AWS S3/Glue/Athena</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">DynamoDB</span>
+            <span class="skill-badge">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <div class="skills-group-label">Software &amp; Dev</div>
           <div class="skills-tags">
             <span class="skill-badge">Django</span>
-            <span class="skill-badge">Node.js</span>
-            <span class="skill-badge">PySide6</span>
+            <span class="skill-badge">REST APIs</span>
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">CI/CD</span>
+            <span class="skill-badge">Angular</span>
           </div>
         </div>
 
         <div class="skills-group">
-          <div class="skills-group-label">Tools &amp; Infra</div>
+          <div class="skills-group-label">Analytics</div>
           <div class="skills-tags">
-            <span class="skill-badge">Linux</span>
-            <span class="skill-badge">Docker</span>
-            <span class="skill-badge">Git</span>
-            <span class="skill-badge">MySQL</span>
-            <span class="skill-badge">HTML5</span>
-            <span class="skill-badge">CI/CD</span>
+            <span class="skill-badge">Pandas</span>
+            <span class="skill-badge">NumPy</span>
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">DuckDB</span>
           </div>
+        </div>
+      </div>
+
+      <div class="sidebar-languages">
+        <div class="sidebar-section-label">Languages</div>
+        <div class="lang-item">
+          <span class="lang-name">Portuguese</span>
+          <span class="lang-level">Native</span>
+        </div>
+        <div class="lang-item">
+          <span class="lang-name">English</span>
+          <span class="lang-level">Upper-Intermediate</span>
         </div>
       </div>
 
@@ -118,12 +145,97 @@
       <section class="content-section">
         <h2 class="section-heading">About</h2>
         <p class="bio-text">
-          I hold a Ph.D. in Computer Science from <a href="http://www.ufrgs.br/ufrgs/inicial" target="_blank">Federal University of Rio Grande do Sul</a> (UFRGS) advised by
-          Prof. Dr. Lisandro Zambenedetti Granville. I achieved B.Sc. Degree in Computer Science from the Integrated
-          Regional University (URI) — Campus Frederico Westphalen, in 2017, and M.Sc. Degree in Computer Science from
-          UFRGS, in 2020. My research interests include Internet Measurements, Network Functions Virtualization (NFV),
-          Software-Defined Networking (SDN), and Distributed Systems.
+          Senior Data Platform Engineer and Ph.D. in Computer Science from the <a href="http://www.ufrgs.br/ufrgs/inicial" target="_blank">Federal University of Rio Grande do Sul</a> (UFRGS), advised by Prof. Dr. Lisandro Zambenedetti Granville. I bridge academic research and industry data engineering — designing, building, and operating data-intensive systems with a focus on scalability, reliability, and maintainability. My background spans data platforms, distributed systems, orchestration, and architectural decision-making, as well as internet measurement research covering DNS, NFV, and SDN.
         </p>
+      </section>
+
+      <!-- Experience -->
+      <section class="content-section">
+        <h2 class="section-heading">Experience</h2>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-info">
+              <div class="exp-role">Data Engineer</div>
+              <div class="exp-company">Marlabs <span class="exp-client">· Serasa Experian</span></div>
+            </div>
+            <div class="exp-period">Feb 2026 – Present</div>
+          </div>
+          <div class="exp-location">São Paulo, Brazil</div>
+          <ul class="exp-bullets">
+            <li>Working on large-scale data infrastructure at Serasa Experian, one of Brazil's leading credit and analytics bureaus.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-info">
+              <div class="exp-role">Data Engineer</div>
+              <div class="exp-company">Teddy Open Finance</div>
+            </div>
+            <div class="exp-period">Sep 2024 – Jan 2026</div>
+          </div>
+          <div class="exp-location">São Paulo, Brazil</div>
+          <ul class="exp-bullets">
+            <li>Designed and owned automated data pipelines, making architectural decisions on ingestion patterns, data modeling, and orchestration to ensure reliability and scalability.</li>
+            <li>Defined orchestration strategies with Apache Airflow, including task granularity, dependency management, and scheduling policies.</li>
+            <li>Leveraged AWS services (S3, Glue, Athena) to build scalable storage, transformation, and serverless analytics workflows.</li>
+            <li>Introduced Delta Lake as the storage layer, defining versioning and transaction strategies to improve data consistency and pipeline safety.</li>
+            <li>Selected data access patterns across PostgreSQL (RDS), DynamoDB, and MongoDB based on workload characteristics and consistency requirements.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-info">
+              <div class="exp-role">Postgraduate Data Engineer Intern</div>
+              <div class="exp-company">TELUS Digital BR</div>
+            </div>
+            <div class="exp-period">Jun 2023 – Sep 2023</div>
+          </div>
+          <div class="exp-location">Porto Alegre, Brazil</div>
+          <ul class="exp-bullets">
+            <li>Designed and optimized ETL processes for efficient data transformation from diverse sources.</li>
+            <li>Automated data workflows and pipelines using Apache Airflow.</li>
+            <li>Integrated heterogeneous data sources with Airbyte, Fivetran, and Python.</li>
+            <li>Leveraged AWS and Azure for secure and scalable data storage solutions.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-info">
+              <div class="exp-role">Data / Research Engineer</div>
+              <div class="exp-company">Federal University of Rio Grande do Sul (UFRGS)</div>
+            </div>
+            <div class="exp-period">Mar 2020 – May 2025</div>
+          </div>
+          <div class="exp-location">Porto Alegre, Brazil</div>
+          <ul class="exp-bullets">
+            <li>Designed and owned end-to-end data pipelines across ingestion, preprocessing, storage formats, and processing strategies to support large-scale research workflows.</li>
+            <li>Designed data models and storage layouts, balancing query performance, storage efficiency, and experiment reproducibility.</li>
+            <li>Ensured data quality, versioning, and traceability across multiple concurrent research projects.</li>
+            <li>Led technical discussions with multidisciplinary teams, translating research requirements into concrete data architecture and implementation decisions.</li>
+          </ul>
+        </div>
+
+        <div class="exp-card">
+          <div class="exp-header">
+            <div class="exp-info">
+              <div class="exp-role">Software Engineer</div>
+              <div class="exp-company">Brazilian Society of Computing (SBC)</div>
+            </div>
+            <div class="exp-period">May 2018 – Sep 2021</div>
+          </div>
+          <div class="exp-location">Porto Alegre, Brazil</div>
+          <ul class="exp-bullets">
+            <li>Led the development of version 3 of the JEMS system, owning end-to-end SDLC activities from design to deployment.</li>
+            <li>Designed and maintained RESTful APIs using Python and Django.</li>
+            <li>Implemented CI/CD pipelines with GitLab CI and GitHub Actions, improving deployment reliability and release cadence.</li>
+            <li>Containerized application services using Docker; developed responsive UIs with Angular.</li>
+          </ul>
+        </div>
+
       </section>
 
       <!-- Education -->
@@ -134,6 +246,7 @@
           <img src="img/ufrgs.jpg" alt="UFRGS" class="edu-logo">
           <div class="edu-info">
             <div class="edu-degree">Ph.D. in Computer Science</div>
+            <div class="edu-field">Computer Networks</div>
             <div class="edu-institution">Federal University of Rio Grande do Sul (UFRGS) — Institute of Informatics</div>
           </div>
           <div class="edu-years">2020 – 2025</div>
@@ -143,6 +256,7 @@
           <img src="img/ufrgs.jpg" alt="UFRGS" class="edu-logo">
           <div class="edu-info">
             <div class="edu-degree">M.Sc. in Computer Science</div>
+            <div class="edu-field">Architectures, Protocols and Network &amp; Service Management</div>
             <div class="edu-institution">Federal University of Rio Grande do Sul (UFRGS) — Institute of Informatics</div>
           </div>
           <div class="edu-years">2018 – 2020</div>
@@ -154,7 +268,62 @@
             <div class="edu-degree">B.Sc. in Computer Science</div>
             <div class="edu-institution">Integrated Regional University (URI) — Campus of Frederico Westphalen</div>
           </div>
-          <div class="edu-years">2013 – 2018</div>
+          <div class="edu-years">2013 – 2017</div>
+        </div>
+      </section>
+
+      <!-- Certifications & Awards -->
+      <section class="content-section">
+        <h2 class="section-heading">Certifications &amp; Awards</h2>
+
+        <div class="cert-grid">
+          <div class="cert-item">
+            <div class="cert-icon cert-icon--cert">
+              <svg class="icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960zm-198 442l-468 468-164-164q-19-19-45-19t-45 19-19 45 19 45l209 209q19 19 45 19t45-19l513-513q19-19 19-45t-19-45-45-19-45 19z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cert-name">Scrum Foundation Professional Certification (SFPC™)</div>
+              <div class="cert-issuer">CertiProf</div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon cert-icon--cert">
+              <svg class="icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960zm-198 442l-468 468-164-164q-19-19-45-19t-45 19-19 45 19 45l209 209q19 19 45 19t45-19l513-513q19-19 19-45t-19-45-45-19-45 19z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cert-name">AWS Educate Getting Started with Serverless</div>
+              <div class="cert-issuer">Amazon Web Services</div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon cert-icon--cert">
+              <svg class="icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1376 128q119 0 203.5 84.5t84.5 203.5v960q0 119-84.5 203.5t-203.5 84.5h-960q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960zm-198 442l-468 468-164-164q-19-19-45-19t-45 19-19 45 19 45l209 209q19 19 45 19t45-19l513-513q19-19 19-45t-19-45-45-19-45 19z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cert-name">Astronomer Certification for Apache Airflow Fundamentals</div>
+              <div class="cert-issuer">Astronomer</div>
+            </div>
+          </div>
+
+          <div class="cert-item">
+            <div class="cert-icon cert-icon--award">
+              <svg class="icon" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z"/>
+              </svg>
+            </div>
+            <div>
+              <div class="cert-name">Academic Merit Award</div>
+              <div class="cert-issuer">Integrated Regional University (URI)</div>
+            </div>
+          </div>
         </div>
       </section>
 
